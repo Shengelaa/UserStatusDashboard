@@ -1,0 +1,35 @@
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.status-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
